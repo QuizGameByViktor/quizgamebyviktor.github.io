@@ -11,44 +11,44 @@ let availableQuesions = [];
 
 let questions = [
     {
-      question: "Inside which HTML element do we put the JavaScript??",
-      choice1: "<script>",
-      choice2: "<javascript>",
-      choice3: "<js>",
-      choice4: "<scripting>",
+      question: "2+2?",
+      choice1: "1",
+      choice2: "4",
+      choice3: "6",
+      choice4: "7",
+      answer: 2
+    },
+    {
+      question: "4+4?",
+      choice1: "8",
+      choice2: "2",
+      choice3: "4",
+      choice4: "12",
       answer: 1
     },
     {
-      question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      choice1: "<script href='xxx.js'>",
-      choice2: "<script name='xxx.js'>",
-      choice3: "<script src='xxx.js'>",
-      choice4: "<script file='xxx.js'>",
-      answer: 3
-    },
-    {
-      question: " How do you write 'Hello World' in an alert box?",
-      choice1: "msgBox('Hello World');",
-      choice2: "alertBox('Hello World');",
-      choice3: "msg('Hello World');",
-      choice4: "alert('Hello World');",
+      question: "10-3",
+      choice1: "10",
+      choice2: "3",
+      choice3: "13",
+      choice4: "7",
       answer: 4
     },
     {
-        question: " How do you write 'Hello World' in an alert box?",
-        choice1: "msgBox('Hello World');",
-        choice2: "alertBox('Hello World');",
-        choice3: "msg('Hello World');",
-        choice4: "alert('Hello World');",
-        answer: 4
+        question: "3+8",
+        choice1: "12",
+        choice2: "5",
+        choice3: "11",
+        choice4: "22",
+        answer: 3
     },
     {
-        question: " How do you write 'Hello World' in an alert box?",
-        choice1: "msgBox('Hello World');",
-        choice2: "alertBox('Hello World');",
-        choice3: "msg('Hello World');",
-        choice4: "alert('Hello World');",
-        answer: 4
+        question: "15-6",
+        choice1: "9",
+        choice2: "12",
+        choice3: "3",
+        choice4: "8",
+        answer: 1
     },
 
 
