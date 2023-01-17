@@ -27,7 +27,7 @@ let questions = [
       answer: 1
     },
     {
-      question: "10-3",
+      question: "10-3?",
       choice1: "10",
       choice2: "3",
       choice3: "13",
@@ -35,7 +35,7 @@ let questions = [
       answer: 4
     },
     {
-        question: "3+8",
+        question: "3+8?",
         choice1: "12",
         choice2: "5",
         choice3: "11",
@@ -43,7 +43,7 @@ let questions = [
         answer: 3
     },
     {
-        question: "15-6",
+        question: "15-6?",
         choice1: "9",
         choice2: "12",
         choice3: "3",
