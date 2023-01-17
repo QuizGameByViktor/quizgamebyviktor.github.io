@@ -1,0 +1,27 @@
+#questionsList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+  
+.new-Question {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    color: rgb(236, 225, 225);
+    font-weight: 400;
+    text-align: center;
+}
+
+.high-score:hover {
+    transform: scale(1.25);
+}
+
+.scroll {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}

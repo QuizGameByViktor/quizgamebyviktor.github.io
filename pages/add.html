@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Add Question</title>
+        <link rel="stylesheet" href="/style/css/style.css" />
+        <link rel="stylesheet" href="/style/css/highscores.css" />
+        <link rel="stylesheet" href="/style/css/game.css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../style/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../style/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../style/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../style/favicon/site.webmanifest">
+        <link rel="mask-icon" href="../style/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ff0000">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="flex-center flex-column">
+                <h1 class="text-center">Add Question</h1>
+                <form>
+                    <input class="input2" type="text" name="question" id="question" placeholder="question"/>
+                    <input type="text" name="choice1" id="choice1" placeholder="choice1"/>
+                    <input type="text" name="choice2" id="choice2" placeholder="choice2"/>
+                    <input type="text" name="choice3" id="choice3" placeholder="choice3"/>
+                    <input type="text" name="choice4" id="choice4" placeholder="choice4"/>
+                    <input class="input3" type="text" name="answer" id="answer" placeholder="correct choice number"/>
+                    <button type="submit" class="btn" id="addQuestion" onclick="saveQuestion(event)" disabled>Add</button>
+                </form>
+
+                <a class="btn" href="/pages/admin.html">Cancel</a>
+            </div>
+        </div>
+        <script src="/style/js/add.js"></script>
+    </body>
+
+</html>
